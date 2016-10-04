@@ -24,6 +24,7 @@ public class UITextTypeWriter : MonoBehaviour
         foreach (char c in story)
         {
             txt.text += c;
+            txt.color = Color.blue;
             yield return new WaitForSeconds(0.125f);
         }
     }
