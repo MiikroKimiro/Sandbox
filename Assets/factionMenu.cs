@@ -14,27 +14,22 @@ public class factionMenu : MonoBehaviour {
         if (Text_Asset == null) throw new System.Exception("Text_Asset not defined on Binder Script!");
 
         XmlDocument xd = new XmlDocument();
-        xd.LoadXml(Text_Asset.text);
+         xd.LoadXml(Text_Asset.text);
 
         GameObject contentGO = GameObject.Find("Content");
         GameObject factionButtonPrefab = GameObject.Find("factionButtonPrefab");
         int factionIndex = 0;
 
-
+        
 
         if(xd.DocumentElement.HasChildNodes)
         {
             foreach (XmlNode node in xd.DocumentElement.ChildNodes)
             {
-                GameObject newFaction = Instantiate(factionButtonPrefab) as GameObject;
-                ListItem
-                factionIndex++;
+                print(node.ChildNodes);
+                GameObject newFaction = Instantiate(factionButtonPrefab);
+                //newFaction.GetComponentInChildren<Image>().sprite =  
             }
-
-
-
-
-
         }
 
 
