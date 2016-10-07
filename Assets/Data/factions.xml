@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef>
+		<defName>Hi-Merimã</defName>
+		<defID>0</defID>
+		<logo>hiLogo</logo>
+		<description>The Hi-Merimã faction was named after the last Uncontacted People to disapear in the Amazon.
+		Its territory is located on the South American continent. The Capital is in the center of the last remaining squares kilometers of the Rain Forest and powered by the Bio Technologies. These technologies are based on creating symbiosis with their surrounding biosphere to harvest energy and on manipulation of the genetical Heritage of the Rain Forest to engineer defense systems.
+		The Hi-Merimã aspire to protect the remaining Rain Forest and to see it reach its past Glory.</description>
+		<tech>BioTechs</tech>
+		<politicalRegime>EcoDespotism</politicalRegime>
+		<aspirations>Protect the remaining Rain Forest and see it reaches its past Glory</aspirations>
+		<otherFactions>
+			<li>Likes: Senkō</li>
+			<li>Dislikes: Oriental, Occident</li>
+		</otherFactions>
+	</FactionDef>
+	<FactionDef>
+		<defName>Senkō - 潜行</defName>
+		<defID>1</defID>
+		<description>The Senkō are the remanent of what was know as Japan. After the long awaited Great Earthquake, the japanese islands went underwater not before the WaterTechs could be developped. A huge megapolis was build underwater to preserve the ancient traditions and way of life of the Great Japanese Civilization.</description>
+		<tech>WaterTechs</tech>
+		<politicalRegime>Feudal Shogunate</politicalRegime>
+		<aspirations>Stay away form the foreigners and control the Pacific Ocean.</aspirations>
+		<otherFactions>
+			<li>Likes: Hi-Merimã</li>
+			<li>Dislikes: GrecoRoman, Soviet</li>
+		</otherFactions>
+	</FactionDef>
+</Defs>
